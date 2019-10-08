@@ -114,10 +114,10 @@
 }
 
 /* Dots */
-.slick-dotted.slick-slider
+/* .slick-dotted.slick-slider
 {
     margin-bottom: 30px;
-}
+} */
 
 .slick-dots
 {
@@ -188,17 +188,17 @@
     width: 20px;
     height: 20px;
 
-    content: '•';
+    /* content: '•';
     text-align: center;
 
     opacity: .25;
-    color: black;
+    color: black; */
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-dots li.slick-active button:before
+.slick-dots li.slick-active
 {
     opacity: .75;
-    color: black;
+    background-color: rgb(116, 199, 213);
 }
