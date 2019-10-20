@@ -188,17 +188,13 @@
     width: 20px;
     height: 20px;
 
-    /* content: '•';
-    text-align: center;
 
-    opacity: .25;
-    color: black; */
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-dots li.slick-active
+.slick-dots li.slick-active button:before
 {
     opacity: .75;
-    background-color: rgb(116, 199, 213);
+    color: black;
 }
